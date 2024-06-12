@@ -1,0 +1,22 @@
+# Directory-based project format
+.idea/
+**/target/
+
+# File-based project format
+*.ipr
+*.iws
+*.iml
+
+# OSX Specific Files
+*.DS_Store
+
+*.log
+**/static/media/
+**/static/built/
+
+**/.vscode/
+
+pet-first.log.*
+liquibase/changesets.tar.gz
+pet-first-auth-api/src/main/resources/jwt/private_key.der
+pet-first-auth-api/src/main/resources/jwt/public_key.der

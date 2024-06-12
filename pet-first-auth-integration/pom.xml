@@ -3,18 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.pet_first</groupId>
+        <artifactId>pet-first-auth</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <groupId>org.pet_first</groupId>
-    <artifactId>pet-first-auth</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>pet-first-auth-api</module>
-        <module>pet-first-auth-common</module>
-        <module>pet-first-auth-core</module>
-        <module>pet-first-auth-data</module>
-        <module>pet-first-auth-integration</module>
-    </modules>
+    <artifactId>pet-first-auth-integration</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

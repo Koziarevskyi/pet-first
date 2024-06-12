@@ -43,6 +43,12 @@
         </createTable>
 
     </changeSet>
+
+    <changeSet id="2" author="Volodymyr Koziarevskyi">
+        <addColumn tableName="user">
+            <column name="removed_at" type="${type.timestamp}"/>
+        </addColumn>
+    </changeSet>
     
 
 </databaseChangeLog>
